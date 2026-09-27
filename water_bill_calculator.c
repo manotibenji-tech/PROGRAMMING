@@ -28,10 +28,10 @@ int main(int argc, char** argv)
 		totalBill=units*20;
 	}
 	else if (units <=60){
-		totalBill=units*25;
+		totalBill=(30*20) +((units-30) *25);
 	}  
 	else{
-		totalBill=units*30;
+		totalBill=(30*20) + (30*25) +((units-60)*30);
 	}
 	 
 	 //Display the results
