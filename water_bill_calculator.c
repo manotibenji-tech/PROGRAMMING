@@ -19,7 +19,7 @@ int main(int argc, char** argv)
 	
 	//For impossible units
 	if (units<0){
-		printf("Error.Units cant be negative");
+		printf("Error.Units cant be negative \n");
 		return 1;
 	}
 	
