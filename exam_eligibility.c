@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 	scanf("%lf",&marks);
 	
 	//Check eligibility
-	if (attendance >=75 && marks >=40){
+	if (attendance >=75 && marks >=40 && attendance <= 100 && marks <= 100){
 		printf("Eligible. \n");
 	}
 	else
